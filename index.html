@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Forcast <sup>today</sup></div>
+        <form >
+            <input type="text" placeholder="Location" class="input-txt">
+            <input type="submit" value="search" class="search-btn">
+        </form>
+        <div class="toggle-temp">
+            <button id="toggle-degree">to F<sup>o</sup></button>
+        </div>
+    </header>
+
+    <main>
+        <div id="date-time-location">
+            <div id="location"></div>
+            <div id="date-time"></div>
+        </div>
+        
+
+        <div id="today-info">
+            <div id="today-temp">
+
+            </div>
+            <div id="today-general-info">
+
+            </div>
+        </div>
+
+        <div id="hourly-info"></div>
+
+        <div id="week-info"></div>
+
+    </main>
+    <footer>
+        <p>Built by</p>
+        <a href="https://github.com/AliHussienabdo">AlyHussein</a> |
+        <a href="https://github.com/AliHussienabdo">Source</a>
+    </footer>
+    
+</body>
+</html>
