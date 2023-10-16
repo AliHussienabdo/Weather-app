@@ -8,7 +8,7 @@
 - Display Tempreature in Celsius or Fahrenheit.
 - Unique weather symbols for each forecast description.
 
-[Live Demo](https://alihussienabdo.github.io/Weather-app/)
+[Live Demo](https://alyhusseinn.github.io/Weather-app/)
 
 ![alt text](dist/imgs/mainScreen.png "App Preview")
 
